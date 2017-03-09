@@ -1,0 +1,63 @@
+@import config.sass
+
+body
+    margin: 3%
+    background: $bg_color
+    color: $font
+    font-family: sans-serif
+    -webkit-touch-callout: none
+    -webkit-user-select: none
+    -khtml-user-select: none
+    -moz-user-select: none
+    -ms-user-select: none
+    user-select: none
+
+h1, .calendar, .progress, .click_info
+    width: 100%
+    min-width: 225px
+    max-width: 500px
+    margin: auto
+
+.calendar
+    border-collapse: collapse
+    table-layout: fixed
+
+.progress
+    text-align: center
+    padding: 1em 0
+    font-size: 1.5em
+
+.click_info
+    color: $click_info
+    text-align: center
+    font-size: .75em
+
+h1
+    text-align: right
+    font-weight: normal
+    font-size: 2em
+
+th, td
+    border: 1px solid $table_border
+    vertical-align: bottom
+    text-align: right
+    padding: 3px
+
+.month
+    color: $month
+
+.sunday
+    background: $sunday
+
+.today
+    background: $today
+
+.easter
+    background: $easter
+
+.over_unknown
+    background: $over_unknown
+.over_success
+    background: $over_success
+.over_fail
+    background: $over_fail
